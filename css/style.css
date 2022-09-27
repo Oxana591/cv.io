@@ -1,0 +1,133 @@
+body {
+  background-color: #eefd98;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+h1 {
+  font-family: Montserrat;
+  font-size: 45px;
+  color: #000;
+}
+.about-me-proffesion {
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 45px;
+}
+.main-conteiner {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  background: rgb(255, 255, 255);
+  margin: 40px;
+}
+.abput-me-section {
+  background-color: rgb(253, 253, 253);
+  display: flex;
+  flex-direction: column;
+  width: 830px;
+  height: 1319px;
+  margin: 110px 200px 110px 460px;
+}
+.my-project-section {
+}
+.my-work-experience div {
+  margin-bottom: 20px;
+}
+.education h4 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+}
+.education-text {
+  margin: 10px auto;
+}
+/* Sidebar section */
+.aside-section {
+  background-color: #1e2939;
+  width: 370px;
+  height: 1319px;
+  position: absolute;
+  left: 50px;
+  top: 40px;
+  color: #fff;
+  padding: 40px 0px;
+}
+.contacts-section,
+.tech-skill-section,
+.soft-skill-section {
+  margin: 50px 0px 0px 40px;
+}
+.tech-skill-section li,
+.soft-skill-section li {
+  list-style-type: disc;
+  color: #fb6d3a;
+}
+.tech-skill-section li span,
+.soft-skill-section li span {
+  color: #fff;
+}
+
+/* contacts section */
+.contacts-section-type {
+  text-decoration: none;
+}
+.contacts-section-type,
+.contact-section-link {
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  opacity: 0.5;
+  margin-left: 10px;
+}
+.aside-section h3,
+.aside-section h4 {
+  font-size: 22px;
+  line-height: 26.82px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.aside-section img {
+  width: 370px;
+}
+h3 {
+  font-size: 22;
+  color: #000;
+  line-height: 27px;
+}
+ol li {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
+}
+ol li a {
+  font-weight: 400;
+  text-decoration: none;
+  color: #595959;
+  margin-left: 10px;
+}
+ol li span {
+  font-weight: 400;
+  color: #595959;
+}
+h4 {
+  font-size: 16px;
+  line-height: 19.5px;
+  font-weight: 700;
+  color: #000;
+}
+h4 span {
+  color: #fb6d3a;
+}
+.date {
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+.date span {
+  font-size: 12px;
+  line-height: 15px;
+  color: #000;
+}
