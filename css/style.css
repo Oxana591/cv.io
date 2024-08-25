@@ -30,7 +30,25 @@ h1 {
   height: 1319px;
   margin: 110px 200px 110px 460px;
 }
-.my-project-section {
+
+.slider{
+  max-width: 550px;
+
+}
+
+.slider img{
+  height:380px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slider .sliderButton{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-between;
+  
 }
 .my-work-experience div {
   margin-bottom: 20px;
