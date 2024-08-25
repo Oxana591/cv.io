@@ -1,11 +1,4 @@
 ﻿var i=0;
-var links=['',
-    '',
-    '',
-    '',
-    '',
-    
-]
 function next(){
     i++;
     if (i>9){
